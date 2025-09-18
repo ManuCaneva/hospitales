@@ -1,9 +1,9 @@
 SOURCE /home/ubuntu/hospitales/hospitales-data.sql
-SOURCE /home/ubuntu/hospitales/empleados-data.sql
+SOURCE /home/ubuntu/hospitales/personal-data.sql
 
 SET GLOBAL local_infile = 1;
 
-LOAD DATA LOCAL INFILE '/home/ubuntu/hospitales/empleados-data.csv'
+LOAD DATA LOCAL INFILE '/home/ubuntu/hospitales/personal-data.csv'
 INTO TABLE PERSONAL
 FIELDS TERMINATED BY ';' 
 ENCLOSED BY '"'
