@@ -116,7 +116,7 @@ CREATE TABLE RESULTADOS (
 FOREIGN KEY (tratamiento_id) REFERENCES TRATAMIENTOS (id)
 ON DELETE CASCADE
 );
---agregamos campo SUELDO
+-- agregamos campo sueldo
 ALTER TABLE PERSONAL ADD COLUMN sueldo DECIMAL(10,2) AFTER telefono;
 
 
