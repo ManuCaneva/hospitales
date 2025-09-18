@@ -1,4 +1,4 @@
-INSERT INTO `HOSPITALES` (`dni`,`nombre`,`apellidos`,`direccion`,`telefono`,`sueldo`,`hospital_nombre`)
+INSERT INTO `PERSONAL` (`dni`,`nombre`,`apellidos`,`direccion`,`telefono`,`sueldo`,`hospital_nombre`)
 VALUES
   (46000000,"Joseph","Christensen","726-1133 Mi Av.","075-851-5553",487924,"HospitalNero"),
   (46000001,"Celeste","Stephenson","P.O. Box 368, 1066 Adipiscing Rd.","023-665-2670",132627,"HospitalKennedy"),
@@ -50,7 +50,7 @@ VALUES
   (46000047,"Hadassah","Reed","9670 Sociis St.","030-201-5108",568024,"HospitalDoris"),
   (46000048,"Brock","Valenzuela","Ap #786-6166 Enim. Avenue","050-411-7654",528430,"HospitalYuri"),
   (46000049,"Madison","Bright","Ap #934-4555 A St.","078-516-4820",655699,"HospitalPascale");
-INSERT INTO `HOSPITALES` (`dni`,`nombre`,`apellidos`,`direccion`,`telefono`,`sueldo`,`hospital_nombre`)
+INSERT INTO `PERSONAL` (`dni`,`nombre`,`apellidos`,`direccion`,`telefono`,`sueldo`,`hospital_nombre`)
 VALUES
   (46000050,"Nelle","Myers","2267 Duis Street","053-773-3849",498199,"HospitalKyra"),
   (46000051,"Vance","Mcknight","Ap #571-2090 Auctor Avenue","080-324-0404",571622,"HospitalDoris"),
