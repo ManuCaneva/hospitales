@@ -99,7 +99,7 @@ CREATE TABLE INTERNACIONES (
 CREATE TABLE TRATAMIENTOS (
     id INT UNSIGNED AUTO_INCREMENT,
     descripcion VARCHAR(150),
-    medico_dni INT,
+    medico_dni INT UNSIGNED,
     enfermedad_nombre VARCHAR(50),
     internacion_id INT UNSIGNED,
     PRIMARY KEY (id),
